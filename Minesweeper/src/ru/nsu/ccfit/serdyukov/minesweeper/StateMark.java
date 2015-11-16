@@ -1,0 +1,7 @@
+package ru.nsu.ccfit.serdyukov.minesweeper;
+
+public enum StateMark
+{
+	NONE, OPEN, FLAG, QUESTION, MINE, MINEFLAG, MINEQUEST, 
+	MINEWRONG, MINEEXPLOSIONCAUSE, MINENOMARK, MINENOMARKQUEST
+}
